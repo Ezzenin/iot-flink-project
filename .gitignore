@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 jars/*.jar
 .DS_Store
+iot-flink-project.zip

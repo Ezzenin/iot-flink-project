@@ -1,0 +1,7 @@
+venv/
+.git/
+__pycache__/
+*.pyc
+jars/
+sample_output.txt
+.DS_Store

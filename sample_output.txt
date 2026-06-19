@@ -1,0 +1,24 @@
+# Sample output from topic iot_minute_agg
+# One JSON message per closed 1-minute window and device type.
+# Fields: window_time (hh:mm, UTC), type_name (from Postgres), avg_temperature, median_humidity
+
+{"window_time":"13:34","type_name":"thermostat","avg_temperature":24.456363636363633,"median_humidity":51.1}
+{"window_time":"13:34","type_name":"weather_station","avg_temperature":15.658333333333333,"median_humidity":78.255}
+{"window_time":"13:34","type_name":"temperature_sensor","avg_temperature":22.072222222222223,"median_humidity":46.04}
+{"window_time":"13:34","type_name":"humidity_sensor","avg_temperature":17.17875,"median_humidity":74.39}
+{"window_time":"13:35","type_name":"humidity_sensor","avg_temperature":19.295882352941177,"median_humidity":71.82}
+{"window_time":"13:35","type_name":"temperature_sensor","avg_temperature":23.05545454545455,"median_humidity":43.91}
+{"window_time":"13:35","type_name":"weather_station","avg_temperature":14.136875000000002,"median_humidity":79.565}
+{"window_time":"13:35","type_name":"thermostat","avg_temperature":24.550666666666665,"median_humidity":49.58}
+{"window_time":"13:36","type_name":"weather_station","avg_temperature":14.722222222222221,"median_humidity":81.84}
+{"window_time":"13:36","type_name":"humidity_sensor","avg_temperature":19.379166666666666,"median_humidity":67.95}
+{"window_time":"13:36","type_name":"temperature_sensor","avg_temperature":22.733125,"median_humidity":45.7}
+{"window_time":"13:36","type_name":"thermostat","avg_temperature":24.28857142857143,"median_humidity":48.07}
+{"window_time":"13:37","type_name":"humidity_sensor","avg_temperature":18.839285714285715,"median_humidity":68.355}
+{"window_time":"13:37","type_name":"weather_station","avg_temperature":15.030000000000001,"median_humidity":79.32}
+{"window_time":"13:37","type_name":"thermostat","avg_temperature":24.642105263157895,"median_humidity":54.37}
+{"window_time":"13:37","type_name":"temperature_sensor","avg_temperature":21.290000000000003,"median_humidity":44.94}
+{"window_time":"13:38","type_name":"temperature_sensor","avg_temperature":22.147142857142853,"median_humidity":42.03}
+{"window_time":"13:38","type_name":"thermostat","avg_temperature":24.728,"median_humidity":51.13}
+{"window_time":"13:38","type_name":"weather_station","avg_temperature":13.27111111111111,"median_humidity":78.14}
+{"window_time":"13:38","type_name":"humidity_sensor","avg_temperature":19.305,"median_humidity":70.42}
